@@ -1,71 +1,79 @@
 body {
-    background: url("000.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    font:15px/1.5 Ariel, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:snow-white;
 }
 
-.SignUpBox {
-    background: rgba(44, 62, 80, 0.7);
-    padding: 40px;
-    width: 250px;
-    margin-top: 190px;
-    margin-left: 180px;
-    margin: 0 auto; 
+/* Global */
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
 }
 
-form{
-    width: 240px;
-    text-align: Center;
-    margin-top: -10;
+ul{
+    margin:0;
+    padding:0;
 }
 
-input{
-    width: 240px;
-    text-align: center;
-    background: transparent;
-    border: none;
-    border-bottom: 2px solid white;
-    font-size: 18px;
-    font-width: 200px;
-    padding: 10px 0;
-    transition: 0.5s;
-    outline: none;
-    height: 35px;
-    color: #dfd5ff;
+.button_1{
+    height:38px;
+    background:#ff9340fb;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 20px;px
+    color:white;
 }
 
-button{
-    border: none;
-    width: 190px;
-    font-size: 20px;
-    line-height: 25px;
-    padding: 10px 0;
-    border-radius: 25px;
-    cursor: pointer;
+.dark{
+    padding: 15px;
+    background:#30333afd;
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-button:hover{
-    background: black;
-    color: white;
+header{
+    background: #35424a;
+    color:#ffffff;
+   padding-top: 30px;
+   min-height: 70px;
+   border-bottom: #b82e2efd 3px solid;
 }
 
-h2{
-    color: gold;
+header a{
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
 }
 
-a{
-    color: gold;
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
 }
 
-a:hover{
-    color: cyan;
+header #branding{
+    float: left;
 }
 
-.signIn{
-    color: white;
+header #branding h1{
+    margin: 0;
 }
 
-::placeholder {
-    color: whitesmoke;
-    opacity: 0.6;
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #ff9340fb;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #13044e;
+    font-weight: bold;
 }
